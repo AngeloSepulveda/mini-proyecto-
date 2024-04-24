@@ -1,0 +1,27 @@
+{
+  "type": "module",
+  "name": "dia-8",
+  "version": "1.0.0",
+  "main": "./server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "standard": "^17.1.0",
+    "standart": "^6.1.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  },
+  "description": "MINI-PROYECTO"
+}
