@@ -1,11 +1,10 @@
-import dotenv from 'dotenv'
+import { config } from 'dotenv'
 
-dotenv.config()
+config()
 
-export const DB_DATABASE = process.env.DB_DATABASE || 'api'
-export const DB_USER = process.env.DB_USER || 'root'
-export const DB_PASSWORD = process.env.DB_PASSWORD || ''
-export const DB_HOST = process.env.DB_HOST || 'localhost'
-export const PORT = process.env.PORT || 3000
 
-console.log(PORT)
+export const DB_HOST = process.env.DB_HOST || 'localhost';
+export const DB_USER = process.env.DB_USER || 'root';
+export const DB_PASSWORD = process.env.DB_PASSWORD || '';
+export const DB_DATABASE = process.env.DB_DATABASE || 'api';
+export const PORT = process.env.PORT || 3000;
